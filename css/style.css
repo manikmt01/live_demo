@@ -9,6 +9,7 @@ body{
  background-image:  url('../img/Background.jpg');
  background-size: cover;
  min-height: 100vh;
+ background-attachment: fixed;
  background-repeat: no-repeat; 
  background-position: center;
 }
@@ -50,7 +51,10 @@ header h3 a{
 .banner	{}
 .banner .nav-pills {
     background: #fff;
-    height: 100%;
+    
+}
+.banner .sticky-top{
+	height: 100vh;
 }
 .banner .nav-pills a {
     color: #000;
@@ -125,19 +129,18 @@ header h3 a{
 	margin-bottom: 0;
 }
 /* tab_body end */
-
-.risk{
-	padding: 15px;
-	color: #fff;
-	max-width: 80%;
-	margin: auto;
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 999;
-	background: rgba(0, 0, 0, .7);
-	border-radius: 5px;
+.risk {
+    padding: 15px;
+    color: #fff;
+    max-width: 80%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 5px;
 }
 .risk h4{
 	color: red;

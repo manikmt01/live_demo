@@ -75,8 +75,10 @@ header h2 {
 header h3 {
     font-size: 20px;
 }
-
-
+.banner .sticky-top{
+	height: auto;
+	position: static;
+}
 
 
 }
@@ -96,7 +98,10 @@ header h3 {
     position: relative;
     font-size: 18px;
 }  
-	
+.banner .sticky-top{
+	height: auto;
+	position: static;
+}	
 	
 	
 	
@@ -106,7 +111,10 @@ header h3 {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+.banner .sticky-top{
+	height: auto;
+	position: static;
+}
 	
 	
 	
