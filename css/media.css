@@ -56,6 +56,8 @@
 .risk {
     padding: 10px;
     max-width: 95%;
+    overflow: scroll;
+    height: 250px;
 }
 .risk p {
     margin-bottom: 0;
@@ -76,7 +78,7 @@ header h3 {
     font-size: 20px;
 }
 .banner .sticky-top{
-	height: auto;
+	min-height: auto;
 	position: static;
 }
 
@@ -85,9 +87,11 @@ header h3 {
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .risk {
+.risk {
     padding: 10px;
     max-width: 95%;
+    overflow: scroll;
+    height: 250px;
 }
 .risk p {
     margin-bottom: 0;
@@ -99,7 +103,7 @@ header h3 {
     font-size: 18px;
 }  
 .banner .sticky-top{
-	height: auto;
+	min-height: auto;
 	position: static;
 }	
 	
@@ -112,10 +116,15 @@ header h3 {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 .banner .sticky-top{
-	height: auto;
+	min-height: auto;
 	position: static;
 }
-	
+.risk {
+    padding: 10px;
+    max-width: 95%;
+    overflow: scroll;
+    height: 300px;
+}
 	
 	
 	

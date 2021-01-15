@@ -53,8 +53,8 @@ header h3 a{
     background: #fff;
     
 }
-.banner .sticky-top{
-	height: 100vh;
+.banner .sticky-top {
+    min-height: 100vh;
 }
 .banner .nav-pills a {
     color: #000;
@@ -129,6 +129,7 @@ header h3 a{
 	margin-bottom: 0;
 }
 /* tab_body end */
+
 .risk {
     padding: 15px;
     color: #fff;
