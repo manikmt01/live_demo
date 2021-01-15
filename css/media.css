@@ -81,6 +81,14 @@ header h3 {
 	min-height: auto;
 	position: static;
 }
+.update span {
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+}
+
+
+
 
 
 }
@@ -106,6 +114,11 @@ header h3 {
 	min-height: auto;
 	position: static;
 }	
+.update span {
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+}
 	
 	
 	
@@ -124,6 +137,11 @@ header h3 {
     max-width: 95%;
     overflow: scroll;
     height: 300px;
+}
+.update span {
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
 }
 	
 	

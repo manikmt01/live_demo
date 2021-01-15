@@ -157,3 +157,19 @@ header h3 a{
 .risk p{
 	margin-bottom: 0;
 }
+
+.update{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.update span {
+    padding: 15px 15px;
+    display: inline-block;
+}
+.update .title {
+    background: #dc3545;
+    color: #fff;
+    font-weight: 700;
+}
+.update .content{}
